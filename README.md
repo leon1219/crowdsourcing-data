@@ -13,6 +13,4 @@ The Twitter search API with a search phrase “Notre Dame” was applied to down
 ### 3. New York City blackout of July 2019
 Key search terms including “power outage,” “blackout,” and “power cut” were used with Twitter search API to collect Twitter data from July 13 to July 15, 2020. Location-related words such as “New York,” “NY,” “NYC,” “Manhattan,” and “Time Square” were selected to filter data related to New York blackout. This filtering process resulted in a dataset of 189,709 records used for the sentiment analysis. 
 
-
-
 According to the Twitter Developer Policy, https://developer.twitter.com/en/developer-terms/agreement-and-policy#id34, restrictions apply to the availability of Twitter data, which are used under Twitter license for the current study, so specific user information or tweets messages are not publicly available without the permission of Twitter Inc. The tweet IDs and User IDs are however available for non-commercial research purposes and attached in each folder. 
