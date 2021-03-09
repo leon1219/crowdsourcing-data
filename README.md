@@ -16,6 +16,3 @@ Key search terms including “power outage,” “blackout,” and “power cut�
 
 
 According to the Twitter Developer Policy, https://developer.twitter.com/en/developer-terms/agreement-and-policy#id34, restrictions apply to the availability of Twitter data, which are used under Twitter license for the current study, so specific user information or tweets messages are not publicly available without the permission of Twitter Inc. The tweet IDs and User IDs are however available for non-commercial research purposes and attached in each folder. 
-
-The training and testing datasets applied in this study included "processed" tweet messages. We suspect that the Twitter policy might not allow us to directly share those information. These datasets could be available upon reasonable requests for the authors of this PNAS paper. 
-
