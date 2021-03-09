@@ -1,4 +1,4 @@
-## PNAS-crowdsourcing-data
+## Supporting data. 
 
 These data files are used to support the findings in the paper "Social Media Data for Sudden-onset Hazard Appraisal." (Lingyao Li, Michelle Bensi, Ma Zihui, Yu Wang, and Gregory B. Baecher).
 
