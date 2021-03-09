@@ -4,7 +4,7 @@ These data files are used to support the findings in the paper "Social Media Dat
 
 Three recent hazard events were used as the basis for this study: (1) the Ridgecrest earthquake sequence of June 2019, (2) the Notre Dame Cathedral fire of April 2019, and (3) the New York City blackout of July 2019.
 
-### 1. Ridgecrest earthquake sequence of June 2019
+### 1. Ridgecrest earthquake sequence of July 2019
 The Twitter Search API was used with a filtering word “earthquake” to scrape earthquake-related data from 4 July to 10 July, 2019. A library of words implying damage (e.g., “damage,” “injury,” “destroy,” and “crack.”) was developed and applied to filter damage-related tweets. The final dataset used for damage analysis included 51,043 tweets, in which 9,197 are original tweets. Retweets were removed for the analysis, assuming that an original tweet describing damage was likely to be a first-hand observation or report. 
 
 ### 2. Notre Dame Cathedral fire of April 2019
