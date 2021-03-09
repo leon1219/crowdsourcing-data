@@ -24,7 +24,7 @@ The mean damage level of each county group was computed and assigned as the esti
 This dataset contains the information from the USGS Shakemap for the mainshock event https://earthquake.usgs.gov/earthquakes/eventpage/ci38457511/pager. In the paper, Figure 2b shows a map of the county-level averaged MMI based on this dataset. 
 
 #### Document 8. ca_earthquake.twb
-Tableau file creates Figure 1 and Figure 2 in the paper.  
+Tableau file that creates Figure 1 and Figure 2 in the paper.  
 
 #### Document 9. tfidf_classifiers.ipynb; Document 10. embedding_lstm.ipynb; Document 11. classifiers_performance.docx
 Several text classification pipelines were built to classify each damage-related tweet into one of the corresponding damage levels. The text classification pipeline was constructed in two steps: (1) text vectorization, and (2) multi-class classification. 
@@ -38,16 +38,3 @@ The training dataset was built based on our manual classification for 1,771 samp
 The testing dataset was built based on our manual classification for a random set of 800 samples from the Ridgecrest earthquake dataset. Metrics including Recall, Precision, F1-score, and Accuracy were applied to select the model. The performance of each pipeline was listed in Document 11. 
 
 #### Note: The training and testing datasets applied in this study included "processed" tweet messages. We suspect that the Twitter policy might not allow us to directly share those information. These datasets could be available upon reasonable requests for the authors of this PNAS paper.
-
-
-
-
-
-
-
-
-
-
-
-
-
