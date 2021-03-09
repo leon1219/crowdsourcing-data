@@ -9,7 +9,7 @@ Contains the tweet IDs for both retweets and tweets related to earthquake daamge
 These filter seeds were used to identify damage-related tweets. Different forms of these filter seeds were considered (e.g., damage, damages, and damaged). 
 
 #### Document 3. false_filter_seeds.xlsx
-Phrases containing damage-related words may not indicate “real” earthquake damage of impacts, such as “scared me to death,” “broke my heart,” “crack me up,” and “kill my sleep.” This library of filter seeds was used to remove tweets not implying “real” status of damage (i.e., “false damage” indicators). This second round of filtering resulted in a set of presumptive “real” damages related tweets containing 51,043 records.
+Phrases containing damage-related words may not indicate “real” earthquake damage of impacts, such as “scared me to death,” “broke my heart,” “crack me up,” and “kill my sleep.” This library of filter seeds was used to remove tweets not implying “real” status of damage (i.e., “false damage” indicators). This filtering process resulted in a set of presumptive “real” damages related tweets containing 51,043 records.
 
 #### Document 4. tweet_volume_words.xlsx
 This document mainly tracks two sets of tweets in the study based on 1,482,937 English records: original tweets created by a user, and “retweets” forwarded by a second user, and the average words-per-tweet and the average characters-per-tweet in every 30-minute interval. This data file was used to create Figure 1 in the paper. 
