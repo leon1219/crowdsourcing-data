@@ -37,7 +37,7 @@ The training dataset was built based on our manual classification for 1,771 samp
 
 The testing dataset was built based on our manual classification for a random set of 800 samples from the Ridgecrest earthquake dataset. Metrics including Recall, Precision, F1-score, and Accuracy were applied to select the model. The performance of each pipeline was listed in Document 11. 
 
-##### The training and testing datasets applied in this study included "processed" tweet messages. We suspect that the Twitter policy might not allow us to directly share those information. These datasets could be available upon reasonable requests for the authors of this PNAS paper.
+##### Note: The training and testing datasets applied in this study included "processed" tweet messages. We suspect that the Twitter policy might not allow us to directly share those information. These datasets could be available upon reasonable requests for the authors of this PNAS paper.
 
 
 
