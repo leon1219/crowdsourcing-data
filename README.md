@@ -1,6 +1,6 @@
 ## PNAS-crowdsourcing-data
 
-These data files are used to support the findings in the paper "Social Media Data for Sudden-onset Hazard Appraisal."
+These data files are used to support the findings in the paper "Social Media Data for Sudden-onset Hazard Appraisal." (Lingyao Li, Michelle Bensi, Ma Zihui, Yu Wang, and Gregory B. Baecher).
 
 Three recent hazard events were used as the basis for this study: (1) the Ridgecrest earthquake sequence of June 2019, (2) the Notre Dame Cathedral fire of April 2019, and (3) the New York City blackout of July 2019.
 
@@ -17,5 +17,5 @@ Key search terms including “power outage,” “blackout,” and “power cut�
 
 According to the Twitter Developer Policy, https://developer.twitter.com/en/developer-terms/agreement-and-policy#id34, restrictions apply to the availability of Twitter data, which are used under Twitter license for the current study, so specific user information or tweets messages are not publicly available without the permission of Twitter Inc. The tweet IDs and User IDs are however available for non-commercial research purposes and attached in each folder. 
 
-The training and testing datasets applied in this study included "processed" tweet messages. We suspect that the Twitter policy might not allow us to directly share those information. These datasets might be available upon reasonable requests for the authors of this PNAS paper. 
+The training and testing datasets applied in this study included "processed" tweet messages. We suspect that the Twitter policy might not allow us to directly share those information. These datasets could be available upon reasonable requests for the authors of this PNAS paper. 
 
