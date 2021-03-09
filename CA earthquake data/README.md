@@ -14,10 +14,10 @@ Phrases containing damage-related words may not indicate “real” earthquake d
 #### Document 4. tweet_volume_words.xlsx
 This document mainly tracks two sets of tweets in the study based on 1,482,937 English records: original tweets created by a user, and “retweets” forwarded by a second user, and the average words-per-tweet and the average characters-per-tweet in every 30-minute interval. This data file was used to create Figure 1 in the paper. 
 
-##### Document 5. damage_classification_result.xlsx
+#### Document 5. damage_classification_result.xlsx
 This coument contains the damage classifications using the TF-IDF + RF pipeline. It also contains the county information based on the location extraction using the Standford Name Entity Recognition (NER) API. The NER tool applied in this study was built based on a 3-class model that can recognize location, person, and organization from a text. https://stanfordnlp.github.io/CoreNLP/ner.html.
 
-##### Document 6. county_damage.xlsx
+#### Document 6. county_damage.xlsx
 
 
 
