@@ -1,7 +1,7 @@
 ### NYC blackout of July 2019 
 These data files were used to support the findings in the case study of the NYC blackout of July 2019 in the paper "Social Media Data sourcing for Sudden-onset Hazard Appraisal."
 
-#### Document 1. tweet_data_ID.dox
+#### Document 1. tweet_data_ID.xlsx
 It contains 189,709 records of the tweet IDs for both retweets and tweets related to the NYC blackout. Retweets were not removed for the present study given that people who retweeted a tweet could possibly witness the same blackout event or hold the same feelings or thoughts as the original tweet. A tweet with more retweets also implies that the details described by the tweet for the Manhattan blackout was recognized by more people. 
 
 The sentiment values were output by IBM Watson NLP tool https://www.ibm.com/cloud/watson-natural-language-understanding. We applied a sign function to simply treat all the negative sentiment as “-1”, neutral as “0”, and positive as “1.” 
