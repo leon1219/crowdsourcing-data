@@ -12,7 +12,7 @@ This file contains the results of the accumulative sentiment score for the study
 #### Document 3. sentiment_average.xlsx
 This file calculates the average score of sentiment in every 10 minutes during the first 5 hours since NYC blackout hit the afflicted areas. 
 
-#### Document 4. sentiment chaneg_ID.dox
+#### Document 4. sentiment chaneg_ID.docx
 This document mainly treats the incorrect tweets that were classified by Waston NLP API. When we tested the performance of the API tool using a random sample of 410 unique tweets, we found that a number of sentiments were wrongly output by the API possibly because the tool was not trained based on blackout-related word domain. To improve the accuracy of sentiment extraction, we manually adjusted the sentiment of these tweets contained in this file. This observation brings forward the potential necessity for either manual modifications in limited circumstances or the need to improve the sentiment results when a few widely retweeted tweets are incorrectly classified due to the limitations of the sentiment tools. 
 
 #### Document 5. nyc_blackout.twb
