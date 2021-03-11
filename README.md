@@ -9,6 +9,7 @@ The Twitter Search API was used with a filtering word “earthquake” to scrape
 
 ### 2. Notre Dame Cathedral fire of April 2019
 The Twitter search API with a search phrase “Notre Dame” was applied to download tweet data in the date range from April 15 to April 25, 2019. Twelve fire factors, as listed below, were selected to filter fire “reasoning” tweets. The resulting database included 50,202 records (1,533 tweets posted from verified users and 48,669 tweets posted from non-verified users) and was used to investigate public opinions regarding the causes of the fire incident. 
+
 Factors = {cigar, combustible, welding, gasoline, lighter, electric (short-circuit, wiring), malfunction, arson, human error, act of god}
 
 ### 3. New York City blackout of July 2019
