@@ -26,7 +26,9 @@ This dataset contains the information from the USGS Shakemap for the mainshock e
 #### Document 8. ca_earthquake.twb
 Tableau file that creates Figure 1 and Figure 2 in the paper.  
 
-#### Document 9. tfidf_classifiers.ipynb; Document 10. embedding_lstm.ipynb; Document 11. classifiers_performance.docx
+#### Document 9. tfidf_classifiers.ipynb; 
+#### Document 10. embedding_lstm.ipynb; 
+#### Document 11. classifiers_performance.docx
 Several text classification pipelines were built to classify each damage-related tweet into one of the corresponding damage levels. The text classification pipeline was constructed in two steps: (1) text vectorization, and (2) multi-class classification. 
 
 Two popular text vectorization approaches were applied including Term Frequency-Inverse Document Frequency (TF-IDF) and word embedding methods. Word embedding methods applied in this study include FastText and GloVe. 
@@ -36,5 +38,8 @@ Classifiers applied in this study include: Random Forest (RF), Naïve Bayes (NB)
 The training dataset was built based on our manual classification for 1,771 samples from this Ridgecrest earthquake dataset and 727 samples from a public earthquake dataset https://crisisnlp.qcri.org/lrec2016/lrec2016.html. The final combined training dataset included 417 level 0 damage samples, 299 level 1 damage samples, 1,190 level 2 damage samples, and 592 level 3 damage samples. However, to deal with the imbalance, we applied a simple text augmentation technique called Easy Data Augmentation (EDA) https://github.com/jasonwei20/eda_nlp. The augmented training dataset contained 1,251 level 0 damage samples, 1,196 level 1 damage samples, 1,190 level 2 damage samples, and 1,184 level 3 damage samples. 
 
 The testing dataset was built based on our manual classification for a random set of 800 samples from the Ridgecrest earthquake dataset. Metrics including Recall, Precision, F1-score, and Accuracy were applied to select the model. The performance of each pipeline was listed in Document 11. 
+
+#### Document 12. all tweet IDs
+This folder contains all the tweet IDs downloaded using the Twitter Search API with a search term "earthquake" in the study period. This dataset can be used for non-commercial purposes related to earthquake topics. 
 
 #### Note: The training and testing datasets applied in this study included "processed" tweet messages. We suspect that the Twitter policy might not allow us to directly share those information. These datasets could be available upon reasonable requests for the authors of this PNAS paper.
