@@ -2,19 +2,18 @@
 These data files were used to support the findings in the case study of the NYC blackout of July 2019 in the paper "Social Media Data sourcing for Sudden-onset Hazard Appraisal."
 
 #### Document 1. tweet_data_ID.dox
-It contains the tweet IDs for both retweets and tweets related to NYC blackout (189,709 records). The original dataset downloaded with the search terms including “power outage,” “blackout,” and “power cut”  in the date range from July 13 to July 15 2020. These data were stored in JavaScript Object Notation (.json) files, which were then converted to Excel (.xlsx) files for subsequent processing. The original dataset contains a total number of 315,500 records. However, there is no guarantee that these retrieved tweets were related to the Manhattan blackout. To deal with this issue, location-related terms including “New York,” “NY,” “NYC,” “Manhattan,” and “Time Square” were used for a second round of filtering and cleaning work . This filtering process reduced the data size from 315,500 to 189,709 records with the timeline from 6:47 pm on July 13 to 8:00 pm on July 15 (EST). 
+It contains 189,709 records of the tweet IDs for both retweets and tweets related to the NYC blackout. Retweets were not removed for the present study given that people who retweeted a tweet could possibly witness the same blackout event or hold the same feelings or thoughts as the original tweet. A tweet with more retweets also implies that the details described by the tweet for the Manhattan blackout was recognized by more people. 
+
+The sentiment values were output by IBM Watson NLP tool https://www.ibm.com/cloud/watson-natural-language-understanding. We applied a sign function to simply treat all the negative sentiment as “-1”, neutral as “0”, and positive as “1.” 
 
 #### Document 2. sentiment_accumulative.xlsx
-This file containes the results of accumulative sentiment score for the study period.
+This file contains the results of the accumulative sentiment score for the study period. This defined variable “accumulative sentiment” reflects the overall changes of sentiment and compensates for the effects of wild swings of sentiment resulting from low tweets volume in a short time interval. 
 
 #### Document 3. sentiment_average.xlsx
-This file calculates the senitment average score for every 10 minutes during the first 5 hours of NYC blackout occured. 
+This file calculates the average score of sentiment in every 10 minutes during the first 5 hours since NYC blackout hit the afflicted areas. 
 
 #### Document 4. sentiment chaneg_ID.dox
-This document mainly treats the incorret tweets that were classified by Waston NLP API. To improve the accuracy, we munually adjusted the tweets containes in this file. 
+This document mainly treats the incorrect tweets that were classified by Waston NLP API. When we tested the performance of the API tool using a random sample of 410 unique tweets, we found that a number of sentiments were wrongly output by the API possibly because the tool was not trained based on blackout-related word domain. To improve the accuracy of sentiment extraction, we manually adjusted the sentiment of these tweets contained in this file. This observation brings forward the potential necessity for either manual modifications in limited circumstances or the need to improve the sentiment results when a few widely retweeted tweets are incorrectly classified due to the limitations of the sentiment tools. 
 
 #### Document 5. nyc_blackout.twb
-Tableau file used to creates Figure 4 in the paper.
-
-
-Note: The training and testing datasets applied in this study included "processed" tweet messages. We suspect that the Twitter policy might not allow us to directly share those information. These datasets could be available upon reasonable requests for the authors of this PNAS paper.
+Tableau file to create Figure 4 in the paper.
