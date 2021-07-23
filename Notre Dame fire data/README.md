@@ -8,11 +8,7 @@ This spreadsheet contains the user IDs for both retweets and tweets related to u
 This spreadsheet contains the validation of the model using 565 tweets randomly selected from the dataset. Each tweet was manually classified into “oppose (-1),” “uncertain (0),” or “support (1)” in terms of the fire cause, and then the predicted opinion output by the model was compared with the manual label. 
 
 #### Document 3. opinion_distribution.xlsx
-This spreadsheet contains the result of opinion distributions for verified users and non-verified users. For each cause-opinion combination (e.g., {act of god: -1}), the total count is the sum of three counts because at most three fire factors can be identified in a single tweet (as shown in tweet_data.xlsx). This file was used to create Figure 3a, b, c in the PNAS paper. 
+This spreadsheet contains the result of opinion distributions for verified users and non-verified users. For each cause-opinion combination (e.g., {act of god: -1}), the total count is the sum of three counts because at most three fire factors can be identified in a single tweet (as shown in tweet_data.xlsx). 
 
 #### Document 4. temporal_data.xlsx
-This spreadsheet presents the time series data based on a 12-hour interval, including total tweet volume over time, tweet volume for non-verified users and verified users, percentages of top four fire causes collected from non-verified users and verified users, percentages of criminal and accidental causes from non-verified users and verified users. This file was used to create Figure 3d, e, f in the PNAS paper. 
-
-#### Document 5. opinion_detection.ipynb
-In the lexicon part, the list of fire factors and the word lists for negation cues, contrast cues, uncertain cues, and tag question are provided.
-After data cleaning, a pipeline line is built to check fire words, negation cues, contrast cues, uncertain cues, and tag question in each tweet and output the opinion on the identified fire cause according to the ruled-based opinion detection model. According to the sample verification, this model achieved a performance as measured by the F1-score of 74.2% on 191 “opposing atti-tude” tweet samples and 86.7% on 357 “supporting attitude” tweet samples. 
+This spreadsheet presents the time series data based on a 12-hour interval, including total tweet volume over time, tweet volume for non-verified users and verified users, percentages of top four fire causes collected from non-verified users and verified users, percentages of criminal and accidental causes from non-verified users and verified users. 
