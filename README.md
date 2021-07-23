@@ -1,6 +1,6 @@
 ## Data Descriptions
 
-These data files are used to support the findings in the paper "Social Media Data for Sudden-onset Hazard Appraisal." (Lingyao Li, Michelle Bensi, Zihui Ma, Yu Wang, and Gregory Baecher).
+These data files are used to support the findings in the paper "Social media data appraisal following natural and anthropogenic hazards." (Lingyao Li, Michelle Bensi, Zihui Ma, and Gregory Baecher).
 
 Three recent hazard events were used as the basis for this study: (1) the Ridgecrest earthquake sequence of July 2019, (2) the Notre Dame Cathedral fire of April 2019, and (3) the New York City blackout of July 2019.
 
