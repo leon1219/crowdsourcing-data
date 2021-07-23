@@ -26,8 +26,6 @@ This dataset contains the information from the USGS Shakemap for the mainshock e
 #### Document 8. ca_earthquake.twb
 Tableau file that creates Figure 1 and Figure 2 in the paper.  
 
-#### Document 9. tfidf_classifiers.ipynb; 
-#### Document 10. embedding_lstm.ipynb; 
 #### Document 11. classifiers_performance.docx
 Several text classification pipelines were built to classify each damage-related tweet into one of the corresponding damage levels. The text classification pipeline was constructed in two steps: (1) text vectorization, and (2) multi-class classification. 
 
