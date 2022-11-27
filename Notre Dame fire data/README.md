@@ -12,3 +12,7 @@ This spreadsheet contains the result of opinion distributions for verified users
 
 #### Document 4. temporal_data.xlsx
 This spreadsheet presents the time series data based on a 12-hour interval, including total tweet volume over time, tweet volume for non-verified users and verified users, percentages of top four fire causes collected from non-verified users and verified users, percentages of criminal and accidental causes from non-verified users and verified users. 
+
+
+#### Document 5. word libraries.docx
+This document includes all the word libraries that was used for cleaning datasets and the development of the text-parsing and lexicon-based rule model. 
