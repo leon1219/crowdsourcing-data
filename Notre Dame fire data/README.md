@@ -1,4 +1,4 @@
-### Notre Dame Cathedral Fire of April 2019
+### Data Descriptions
 These data files were used to support the findings in the case study of the Notre Dame Cathedral fire of April 2019 in the paper "Explore the potential of social media data to support the investigation of a man-made disaster: A case study of 2019 Notre Dame fire" in Journal of Management in Engineering. 
 
 #### Document 1. tweet_data.xlsx
