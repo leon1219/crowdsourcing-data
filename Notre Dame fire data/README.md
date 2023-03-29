@@ -1,5 +1,5 @@
 ### Notre Dame Cathedral Fire of April 2019
-These data files were used to support the findings in the case study of the Notre Dame Cathedral fire of April 2019 in the paper "Social Media Data for Sudden-onset Hazard Appraisal."
+These data files were used to support the findings in the case study of the Notre Dame Cathedral fire of April 2019 in the paper "Explore the potential of social media data to support the investigation of a man-made disaster: A case study of 2019 Notre Dame fire" in Journal of Management in Engineering. 
 
 #### Document 1. tweet_data.xlsx
 This spreadsheet contains the user IDs for both retweets and tweets related to users’ opinion on fire causes (50,202 records). The original dataset downloaded with the search term "Notre Dame" in the date range from April 15 to May 15, 2019 can be available upon reasonable request for non-commercial research purposes. The original dataset contains 9,115,833 records.
@@ -12,7 +12,6 @@ This spreadsheet contains the result of opinion distributions for verified users
 
 #### Document 4. temporal_data.xlsx
 This spreadsheet presents the time series data based on a 12-hour interval, including total tweet volume over time, tweet volume for non-verified users and verified users, percentages of top four fire causes collected from non-verified users and verified users, percentages of criminal and accidental causes from non-verified users and verified users. 
-
 
 #### Document 5. word libraries.docx
 This document includes all the word libraries that was used for cleaning datasets and the development of the text-parsing and lexicon-based rule model. 
